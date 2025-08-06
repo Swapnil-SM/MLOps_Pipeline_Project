@@ -12,6 +12,7 @@ Setting up dcv pipeline (without params)
 Setting up dcv pipeline (with params)
 8> add params.yaml file
 9> Add the params setup (mentioned below)
+9.1.fir dvc.yaml file me jake params paramter do...
 10> Do "dvc repro" again to test the pipeline along with the params
 11> Now git add, commit, push
 
