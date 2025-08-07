@@ -26,6 +26,19 @@ Expermients with DVC:
 18> Now git add, commit, push
 
 
+# Adding a remote S3 storage to DVC:
+
+1. Login to AWS console
+2. Create an IAM user (straight forward process)
+3. Create S3 (enter unique name and create)
+4. pip install dvc[s3]
+5. pip install awscli
+6. "aws configure" -on terminal
+7. dvc remote add -d dvcstore s3://bucketname
+8. dvc commit - push the exexp outcome that you want to keep
+9. Finally git add, commit, push
+
+
 
 
 
